@@ -1,11 +1,17 @@
 
 
-#toolbar{background: rgba(3, 36, 56, 0.42);
+.footers{
+	margin-top: 45px;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+#toolbar{	
+	background: rgba(3, 36, 56, 0.42);
     background-size: cover;
 
 }
-.toolbar1 {
-	olor: #f8f8fb;
+.name {
     float: left;
     color: white;
     margin-left: 2%;
@@ -62,17 +68,18 @@ margin-left: 20px;
 {
 	background-color:#f8f8fb;
 	
-
+width: 650px;
 }
 
 .content1
 {
 
-float: left;
+	
+	float: left;
     padding: 10px;
     background-color: #7a7f7e;
     width: 35%;
-    clear: both;
+    
     margin-left: 19px;
     background-color: rgba(105, 154, 154, 0.55);
     height: 548px;
@@ -80,6 +87,7 @@ float: left;
     margin-bottom: 39px;
     height: 366px;
     margin-top: 15px;
+    width:650px;
 }
 .color{
 	background-color: black;
@@ -89,7 +97,7 @@ float: left;
 
 
 
-.aboutme
+.contentheader
 {
 
 float: left;
@@ -131,14 +139,14 @@ p
 {
 	
 	
-	width: 248px;
+	
     height: 143px;
     float: right;
     background-color: rgba(208, 208, 214, 0.54);
-    margin-right: 12px;
+    margin-right: 201px;
     display: block;
     margin-top: 27px;
-
+	width: 270px;
 }
 .footer1{
 	background-color: #f8f8fb;
@@ -159,7 +167,7 @@ p
 
 }
 .text{
-	text-align: center;
+	
 	font-weight: 500;
 	font-family: "alternate-gothic-no-3-d";
 	text-transform: uppercase;
@@ -171,7 +179,9 @@ p
 	border-bottom: 1px solid white;
 
 }
-h1{    color: #f8f8fb;}
+h1{    color: #f8f8fb;
+    	width: 447px;
+}
 
 .dropbutton {
     background-color: white;
@@ -223,17 +233,48 @@ h1{    color: #f8f8fb;}
 }
 .form
 {
-	float:clear;
+	clear:both;
 	float: left
 }
 .pic1
 {
-float: left;
-    margin-right: 11px;
-    padding-left: -13px;
-    margin-top: 16px;
-    margin-left: 37px;
- border:1px solid #021a40;
+    float: left;
+    margin:20px;
+    border:5px solid #021a40;
+ clear:both;
+ 
+}
+ .pic2
+ {
+    float: left;
+    margin:20px;
+    border:5px solid #021a40;
+
+ }
+.pic3
+{
+    float: left;
+	margin:20px;
+    border:5px solid #021a40;
+}
+
+.pic4{
+    clear:both;
+    float: left;
+    margin:20px;
+    border:5px solid #021a40;
+}
+
+.pic5{
+    float: left;
+    margin:20px;
+    border:5px solid #021a40;
+
+}
+.pic6{
+    float: left;
+    margin:20px;
+    border:5px solid #021a40;
 }
  img {
  	 border:1px solid #021a40;
@@ -247,4 +288,10 @@ float: left;
  .texts
  {width: 291px;
     height: 210px;
+ }
+
+ content
+ {
+ 	width: 960px;
+
  }
